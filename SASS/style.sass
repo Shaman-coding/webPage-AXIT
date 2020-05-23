@@ -79,9 +79,19 @@ $colorWhite: #ffffff
      color: $colorWhite
      border: 2px solid $colorWhite
      text-align: center
-     outline: none
+     //outline: none
      text-decoration: none
      margin-top: 30px
+     transition: .5s all
+     &:hover
+         border: 2px solid $colorOranje
+         transition: .5s ease all
+         color: $colorOranje
+        
+       
+         
+        
+         
 
 .blockTrial
     display: inline-block
@@ -90,6 +100,7 @@ $colorWhite: #ffffff
     background: $colorWhite  
     border: 2px solid $colorWhite
     margin-top: 50px
+    padding-top: 20px
     .titleTrial
         color: $colorBlack
         font-weight: bold
@@ -109,7 +120,8 @@ $colorWhite: #ffffff
         border-bottom: 1px solid $colorGrey
         color: $colorGrey
         margin: 25px 20px
-        padding: 10px   
+        padding: 10px  
+     
 
 
 .Get
@@ -118,6 +130,29 @@ $colorWhite: #ffffff
     background: $colorOranje
     border: 2px solid $colorOranje
     padding: 10px
+
+.container_social
+    display: flex
+    font-weight: bold
+    justify-content: space-around
+    color: $colorGreyBold
+    font-size: 25px
+    padding: 40px 0px
+    margin-bottom: 20ex
+    border-bottom: 2px solid $colorGrey
+    .block_socialIcons
+        display: flex
+        align-items: center
+        
+        .img
+            margin-left: 30px
+
+.socialSubtitle
+    color: $colorGrey
+    font-size: 20px
+    margin-top: 15px
+
+    
 
     
 
